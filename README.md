@@ -11,3 +11,10 @@ To run the script, execute the following command:
 Output:
 12:34:56
 ```
+
+# Project2- Archive large files 
+This is a shell script that archives files larger than 30MB in a specified directory.
+
+To run the script, execute the following command:
+
+./project2_archive.sh
