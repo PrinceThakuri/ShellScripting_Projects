@@ -39,7 +39,9 @@ To run the script, execute the following command:
 
 ## RUN
 To run the script, execute the following command:
+```bash
 ./project2_archive.sh
+```
 
 # Project3- User Creation Script
 
@@ -74,4 +76,28 @@ The script performs the following steps:
 ## RUN
 To run the script, execute the following command:
 
+```bash
 ./project3_create_user.sh [user_name] [comments-optional]
+```
+
+# Project4-Message of the Day (motd) Script
+
+This shell script generates a customized "message of the day" for your Linux system. The motd is displayed when users log in to the system, providing them with important information or announcements.
+
+## Description
+
+The script performs the following tasks:
+
+- Retrieves system-specific information such as the hostname, release information, and kernel version.
+- Retrieves user-specific information such as the logged-in username.
+- Generates a formatted message of the day using the retrieved information.
+
+
+The generated message of the day includes a welcome message, system information, and any additional content you want to include.
+
+## RUN
+To run the script and display the customized message of the day, execute the following command:
+
+```bash
+./project4_motd.sh
+```
